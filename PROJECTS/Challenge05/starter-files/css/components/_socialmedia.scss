@@ -1,0 +1,31 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.socialmedia {
+    text-align: center;
+    background-color: rgb(104, 104, 104);
+    @extend %section;
+
+    .icons {
+        padding-bottom: var.$gutter-base;
+    }
+    a {
+        display: inline;
+        margin-right: math.div(var.$gutter-base, 2);
+        color: var.$background-color-secondary;
+
+    }
+
+    i {
+    }
+
+    p {
+        text-transform: uppercase;
+        color: rgb(183, 178, 178);
+
+        span {
+            color: var.$text-color-secondary;
+        }
+    }
+}

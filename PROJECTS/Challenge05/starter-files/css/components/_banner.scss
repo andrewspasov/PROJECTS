@@ -1,0 +1,54 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.banner {
+
+    
+    background-image: linear-gradient(rgba(72, 72, 72, 0.511), rgba(85, 85, 85, 0.537)), url(./images/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+
+    .title {
+        text-align: center;
+    }
+
+    nav{
+        padding-top: math.div(var.$gutter-base, 2);
+    }
+
+    .logo a{
+        text-transform: capitalize;
+        text-decoration: none;
+        color: var.$text-color-secondary;
+        font-weight: var.$font-weight-bold;
+        font-size: var.$font-size-medium;
+    }
+    .menu ul li:not(:last-child){
+        margin-right: var.$gutter-base;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .menu ul li a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: var.$text-color-secondary;
+    }
+
+    .title h1 {
+        color: var.$text-color-secondary;
+        text-transform: capitalize;
+    }
+
+    .title p {
+        color: var.$text-color-secondary;
+    }
+
+}
+

@@ -1,0 +1,4 @@
+icons:
+<i class="fab fa-sketch"></i>
+<i class="fas fa-fingerprint"></i>
+<i class="fas fa-cloud-upload-alt"></i>

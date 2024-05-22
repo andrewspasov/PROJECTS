@@ -1,0 +1,33 @@
+body {
+  position: relative;
+}
+
+.banner-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.498)),
+    url(./images/home.jpg) no-repeat center;
+}
+
+ul {
+  list-style-image: url(./images/Screenshot_2023-05-02_at_2.52.59_AM_1_20x20.png);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  transition: 0.3s all ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+nav .navbar-nav a {
+    transition: .3s all ease !important;
+}
+
+nav .navbar-nav a:hover {
+    color: white !important;
+}

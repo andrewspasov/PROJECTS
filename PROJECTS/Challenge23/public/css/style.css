@@ -1,0 +1,98 @@
+#banner-home {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.394)),
+    url("home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    z-index: 0;
+}
+
+#banner-about {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.394)),
+        url("about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+}
+
+#banner-contact {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.394)),
+        url("contact-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+}
+
+#banner-post {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 0.576)),
+        url("post-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent !important;
+    z-index: 1 !important;
+}
+
+#navbarNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+.navbar-nav {
+    margin-left: 850px !important;
+}
+.navbar-nav .nav-item .nav-link {
+    padding-top: 9px !important;
+    color: rgba(255, 255, 255, 0.686) !important;
+    font-weight:bold !important;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white !important; 
+    font-weight:bold !important;
+
+}
+p {
+    line-height: 1.6;
+}
+
+#about-me-text {
+    margin-top: 150px !important;
+}
+
+
+#home-text {
+    margin-top: 150px !important;
+}
+
+#contact-text {
+    margin-top: 150px !important;
+}
+#post-text {
+    margin-top: 150px !important;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffffff !important; 
+}

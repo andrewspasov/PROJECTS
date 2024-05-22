@@ -1,0 +1,5 @@
+#2e3135 - dimgrey (section background)
+#26282b - darkgrey (section background)
+#e65f78 - pink
+#fff - white
+#a0a0ac - lightgrey (text)

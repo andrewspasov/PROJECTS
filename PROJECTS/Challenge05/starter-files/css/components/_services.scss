@@ -1,0 +1,79 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.services {
+  background-color: rgb(255, 249, 250);
+  padding-bottom: var.$gutter-base * 4;
+}
+.services-title {
+  text-align: center;
+  padding-top: var.$gutter-base * 4;
+  h2 {
+    padding-bottom: var.$gutter-base;
+  }
+
+  p {
+    padding-bottom: var.$gutter-base;
+  }
+
+  hr {
+    border: 2px solid var.$background-color-tertiary;
+    border-radius: var.$border-radius;
+    width: 40%;
+  }
+
+  form {
+    input {
+      margin-top: var.$gutter-base * 2;
+      outline: none;
+      padding-top: math.div(var.$gutter-base, 2);
+      padding-bottom: math.div(var.$gutter-base, 2);
+      padding-right: var.$gutter-base * 10;
+      margin-right: var.$gutter-base;
+
+      @include mix.tablet-styles {
+        justify-self: center;
+        padding-right: var.$gutter-base * 6;
+        margin-bottom: var.$gutter-base;
+      }
+
+      @include mix.mobile-l-styles {
+        padding-right: var.$gutter-base;
+      }
+    }
+
+    @include mix.mobile-l-styles {
+        text-align: start;
+    }
+  }
+}
+
+.services-container {
+  padding-top: var.$gutter-base * 3;
+  .service-box {
+    margin-right: var.$gutter-base * 2;
+    text-align: center;
+
+    a {
+      color: var.$background-color-tertiary;
+    }
+    i {
+      padding-bottom: var.$gutter-base;
+    }
+
+    h3 {
+      padding-bottom: var.$gutter-base;
+    }
+
+    p {
+      font-size: var.$font-size-small;
+    }
+    @include mix.tablet-styles {
+        margin-right: 0;
+      }
+  }
+
+
+  
+}

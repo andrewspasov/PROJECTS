@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(39, 40, 51, 1);
+  color: white;
+  padding-bottom: 23%;
+}
+
+nav {
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.leftElement {
+  padding-right: 80%;
+}
+.header h1 {
+  padding-top: 20%;
+  font-size: 3em;
+  text-align: center;
+}
+
+.header p {
+  font-size: 26px;
+  text-align: right;
+  padding-right: 36%;
+}
+
+button {
+  color: white;
+  background-color: #e44c65;
+  padding: 5px;
+  border: 1px none #e44c65;
+  border-radius: 5%;
+}
+
+.firstContainer {
+  background-image: url(./images/picture1.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.firstContentBox {
+  color: white;
+  background-color: rgba(39, 40, 51, 0.85);
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  border-top: 6px solid #e44c65;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  clear: both;
+}
+
+.leftContentBox {
+  width: 32.33%;
+  text-align: left;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.centerContentBox {
+  width: 32.33%;
+  text-align: justify;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+.rightContentBox {
+  width: 32.33%;
+  text-align: justify;
+  display: inline-block;
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+.leftContentBox h2 {
+  font-size: 2em;
+  position: absolute;
+  bottom: 190px;
+}
+
+.leftContentBox p {
+  font-size: 20px;
+  position: absolute;
+  bottom: 90px;
+}
+
+.secondContainer {
+  background-image: url(./images/picture2.jpeg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.secondContentBox {
+  color: white;
+  background-color: rgba(39, 40, 51, 0.85);
+  height: 100%;
+  width: 33.33%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 6px solid rgb(93, 93, 238);
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  clear: both;
+}
+
+.secondContentBox h2 {
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+.secondContentParagraph {
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.secondContentParagraph-two {
+  font-size: 25px;
+  text-align: justify;
+}
+.learnMore {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.learnMore:hover {
+  border-color: aqua;
+}
+
+/* THIRD CONTAINER */
+
+.thirdContainer {
+  background-image: url(./images/picture3.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.thirdContentBox {
+  color: white;
+  background-color: rgba(39, 40, 51, 0.85);
+  height: 100%;
+  width: 33.33%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 6px solid rgb(45, 212, 81);
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  clear: both;
+}
+
+.thirdContentBox h2 {
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+.thirdContentParagraph {
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.thirdContentParagraph-two {
+  font-size: 25px;
+  text-align: justify;
+}
+.learnMore {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.learnMore:hover {
+  border-color: aqua;
+}
+
+/* INFORMATION */
+
+.infoContainer {
+  background-color: rgba(39, 40, 51, 1);
+  color: white;
+}
+
+.infoTitle {
+  text-align: center;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.infoTitle h2 {
+  font-size: 30px;
+}
+
+.infoTitle p {
+  font-size: 25px;
+}
+
+.circle {
+  border: 1px none rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 25px 30px;
+  margin: 15px;
+}
+
+.infoIcons div {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  padding-top: 100px;
+  margin-top: 80px;
+}
+
+.infoIcons div p {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 18px;
+}
+
+.redBorder {
+  border-top: 3px solid #e44c65;
+}
+
+.infoLink {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.infoContainer {
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.infoContainer a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* RED CONTAINER */
+
+.redContainer {
+  background-color: #e44c65;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+
+input {
+  background-color: #e44c65;
+  border: 1px solid rgb(215, 215, 215);
+  outline: none;
+  padding: 10px 180px 10px 4px;
+}
+
+input::placeholder {
+  color: rgb(215, 215, 215);
+}
+
+form button {
+  text-align: center;
+  background-color: white;
+  color: #e44c65;
+  padding: 10px 20px 10px 20px;
+}
+
+/* SOCIAL MEDIA */
+
+.socialMedia {
+  background-color: rgba(39, 40, 51, 1);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+
+.fa-brands {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-envelope {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.socialMedia a {
+  color: white;
+  /* text-decoration: none; */
+}
+
+.credits {
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Ne znam zosto ova ne raboti */
+span {
+  color: white;
+  text-decoration: dashed ;
+}
+/* Ne znam zosto ova ne raboti */
+
